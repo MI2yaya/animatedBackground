@@ -8,13 +8,12 @@ CoderBackground:
 4. Select the imported wallpaper! and done!
 
 3D+coderBacgkround:
-(Requires a local server)
+(Requires a server)
 (Requires NPM)
 1. Download and Open Lively Wallpaper from Github (Not Microsoft!)
-2. Open folder in integrated terminal
-3. "npm run dev" to start the server 
-4. Press the Plus(+) and type the server website
-5. Name file, etc, press OK!
-4. Select the imported wallpaper! and done!
+2. Host dist/index.html through a personal server(I recommend Nelify, super easy 10s start)
+3. Press the Plus(+) and add the name of the server to the selection.
+4. Name file, etc, press OK!
+5. Select the imported wallpaper! and done!
 
 More background will be created in the linked repository.
