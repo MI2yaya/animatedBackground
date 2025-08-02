@@ -1,5 +1,5 @@
-import './script.js'; // your matrix rain
-import './3dInsert.js';   // your 3D cube
+import './script.js';
+import './3dInsert.js'; 
 
 /*
 
