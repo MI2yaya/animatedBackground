@@ -1,0 +1,21 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: black;
+}
+
+#matrix {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+#three-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  pointer-events: none;
+}
