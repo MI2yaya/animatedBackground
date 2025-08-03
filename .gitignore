@@ -1,1 +1,2 @@
-backgrounds\3D+coderBackground\node_modules
+node_modules/
+.gitignore

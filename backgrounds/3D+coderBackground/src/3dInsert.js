@@ -19,17 +19,13 @@ scene.add(ambientLight);
 
 // Load font and create text
 const loader = new FontLoader();
-loader.load('/fonts/helvetiker_regular.typeface.json', (font) => {
+loader.load('/fonts/Nevera_Regular.typeface.json', (font) => {
   const geometry = new TextGeometry('M.P', {
     font: font,
     size: 2,         
     depth:1,       
     curveSegments: 12,
-    bevelEnabled: true,
-    bevelThickness: 0.01,
-    bevelSize: 0.01,
-    bevelOffset: 0,
-    bevelSegments: 5,
+
   });
 
   const material = new THREE.MeshBasicMaterial({ 
@@ -50,6 +46,7 @@ loader.load('/fonts/helvetiker_regular.typeface.json', (font) => {
     requestAnimationFrame(animate);
     
     textMesh.rotation.y += val;
+    textMesh.rotation.x += val;
     if (Math.abs(textMesh.rotation.y)>.8){val=-val}
     renderer.render(scene, camera);
   }
